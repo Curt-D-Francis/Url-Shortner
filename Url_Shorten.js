@@ -2,13 +2,13 @@ import { createConnection } from 'mysql';
 import { createInterface } from 'readline';
 import express from 'express';
 const app = express();
-import { nanoid } from 'nanoid'; // Install via: npm install nanoid
+import { nanoid } from 'nanoid';
 
 const connection = createConnection({
     host: "localhost",
     user: "root",
     password: "Number1jr!",
-    database: "Url" // Change to your database name
+    database: "Url" 
 });
 
 const rl = createInterface({
